@@ -1,0 +1,18 @@
+Setting up Tailwind CSS
+
+Tailwind CSS requires Node.js 12.13.0 or higher.
+Install Tailwind via npm
+
+Install Tailwind and its peer-dependencies using npm:
+
+# If you're on Next.js v10
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+Create your configuration files
+
+Next, generate your tailwind.config.js and postcss.config.js files:
+
+npx tailwindcss init -p
+npx tailwindcss init tailwind.config-full.js --full
+
+
